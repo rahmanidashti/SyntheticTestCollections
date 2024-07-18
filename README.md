@@ -22,5 +22,16 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 
 - __dl-2023-runs__: includes the run submissions for TREC Deep Learning Track 2023
 
+## Cite
+```
+@inproceedings{rahmani2024synthetic,
+  title={Synthetic Test Collections for Retrieval Evaluation},
+  author={Rahmani, Hossein A and Craswell, Nick and Yilmaz, Emine and Mitra, Bhaskar and Campos, Daniel},
+  booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={2647--2651},
+  year={2024}
+}
+```
+
 ## Acknowledgments
 This research is supported by the Engineering and Physical Sciences Research Council [EP/S021566/1] and the EPSRC Fellowship titled “Task Based Information Retrieval” [EP/P024289/1].
