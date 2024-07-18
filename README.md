@@ -25,7 +25,10 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 
 
 ## Test Query
-TBA
+- `qid in the 2M range`: These are the human/real queries for TREC Deep Learning track 2023
+- `qid in the 3M range`: These are the synthetic queries for TREC Deep Learning track 2023
+- `qid < 3.1M`: These are 250 **T5**-generated queries
+- `qid > 3.1M`: These are 250 **GPT4**-generated queries
 
 ## Cite
 ```
