@@ -23,6 +23,7 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 - __2023_queries.tsv__: TREC Deep Learning track 2023 test queries
 - __2023.qrels.pass.withDupes.txt__: TREC Deep Learning track 2023 passage qrels
 
+
 ## Test Query
 TBA
 
@@ -51,4 +52,5 @@ url = {https://www.microsoft.com/en-us/research/publication/overview-of-the-trec
 ```
 
 ## Acknowledgments
-This research is supported by the Engineering and Physical Sciences Research Council [EP/S021566/1] and the EPSRC Fellowship titled “Task Based Information Retrieval” [EP/P024289/1].
+- This research is supported by the Engineering and Physical Sciences Research Council [EP/S021566/1] and the EPSRC Fellowship titled “Task Based Information Retrieval” [EP/P024289/1].
+- <a href="https://microsoft.github.io/msmarco/TREC-Deep-Learning.html" target="_blank">TREC 2023 Deep Learning Track Guidelines</a>
