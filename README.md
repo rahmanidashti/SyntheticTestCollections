@@ -20,4 +20,4 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 
 ## Folders and Files
 
-- __dl-2023-runs: includes the run submissions for TREC Deep Learning Track 2023
+- __dl-2023-runs__: includes the run submissions for TREC Deep Learning Track 2023
