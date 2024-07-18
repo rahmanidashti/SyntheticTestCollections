@@ -37,5 +37,18 @@ TBA
 }
 ```
 
+```
+@inproceedings{craswell2024overview,
+author = {Craswell, Nick and Mitra, Bhaskar and Yilmaz, Emine and Rahmani, Hossein A. and Campos, Daniel and Lin, Jimmy and Voorhees, Ellen M. and Soboroff, Ian},
+title = {Overview of the TREC 2023 Deep Learning Track},
+organization = {NIST},
+booktitle = {Text REtrieval Conference (TREC)},
+year = {2024},
+month = {February},
+publisher = {TREC},
+url = {https://www.microsoft.com/en-us/research/publication/overview-of-the-trec-2023-deep-learning-track/},
+}
+```
+
 ## Acknowledgments
 This research is supported by the Engineering and Physical Sciences Research Council [EP/S021566/1] and the EPSRC Fellowship titled “Task Based Information Retrieval” [EP/P024289/1].
