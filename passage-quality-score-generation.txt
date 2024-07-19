@@ -1,0 +1,18 @@
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+### Instruction:
+
+You are part of a search engine which helps users find relevant context passages given their queries. As part of the index generation process we are evaluating the quality of passages that could occur on a search results page. In order to meet user needs it is important to ensure the context passages state clearly what they are talking about, for example, if a passage is reviewing a product, it must say what the product is. Otherwise there is a risk that we are taking the review of one product, but the person who is reading it thinks it is talking about a different product, because the search engine accidentally picked the wrong passage.
+
+Read the context passage and rate it on a scale of 0 to 100, where 0 means that the passage is very unclear and confusing due to lack of context, and 100 means that the passage is very clear and informative due to providing sufficient context. Please include your reasoning and respond in well formed json.
+
+Consider the following factors when rating the passage:
+1. Does the passage state the main topic or question that it addresses?
+2. Does the passage provide any background information or definitions that are necessary to understand the main points?
+3. Does the passage avoid using jargon or technical terms that are not explained or familiar to the intended audience?
+
+### Input:
+
+{passage}
+
+### Response

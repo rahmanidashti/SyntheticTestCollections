@@ -1,0 +1,21 @@
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response
+that appropriately completes the request.
+
+### Instruction:
+
+You are part of a search engine that helps users find relevant context passages given their queries. To improve the
+relevance of retrieval methods, artificial queries must be generated. Read the context passage and write a query
+that a user would issue if they would seek to access the passage mentioned below. Provide reasoning for your
+generation.
+
+Consider the following factors when generating the query:
+1. Does this passage fully answer the query?
+2. Does this query seek information that could only be answered by this given passage?
+
+Respond in JSON where the generated query has the key "query" and the reasoning has the key "reasoning."
+
+### Input:
+
+context passage: {passage}
+
+### Response
