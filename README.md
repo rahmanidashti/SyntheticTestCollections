@@ -23,6 +23,7 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 - __2023.qrels.pass.withDupes.txt__: TREC Deep Learning track 2023 passage qrels -- judged by NIST assessors
 - __2023.qrels.pass.gpt4.txt__: TREC Deep Learning track 2023 passage qrels -- judged by GPT-4
 - __prompts__: includes the prompts for different tasks, passage quality rater, query generation
+- __metadata_models.csv__: includes metadata information for TREC Deep Learning track 2023 run submissions (i.e., type of model)
 
 ### TREC Deep Learning 2023 Passages
 The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <a href="https://msmarco.z22.web.core.windows.net/msmarcoranking/msmarco_v2_passage.tar" target="_blank">msmarco_v2_passage.tar</a>
@@ -61,10 +62,6 @@ trec_eval -q {qrel_file} {run_file}
 trec_eval -m Rndcg -m ndcg_cut -c -q {qrel_file} {run_file}
 ```
 
-## Metadata Files
-
-- files
-
 ## Cite
 ```
 @inproceedings{rahmani2024synthetic,
@@ -88,6 +85,9 @@ publisher = {TREC},
 url = {https://www.microsoft.com/en-us/research/publication/overview-of-the-trec-2023-deep-learning-track/},
 }
 ```
+
+## Contact
+If you have any questions, do not hesitate to contact us by `hossein.rahmani.22@ucl.ac.uk`, we will be happy to assist.
 
 ## Acknowledgments
 - This research is supported by the Engineering and Physical Sciences Research Council [EP/S021566/1] and the EPSRC Fellowship titled “Task Based Information Retrieval” [EP/P024289/1].
