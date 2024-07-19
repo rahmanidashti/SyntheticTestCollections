@@ -51,9 +51,17 @@ We used __synthetic-judgments-prompt.txt__ prompt in `prompts` folder for the GP
 - `frequency_penalty = 0.5`
 - `presence_penalty = 0`
 
-## Runs (ndcgeval, treceval)
+## Runs (ndcgeval, )
 
-- command
+### treceval 
+```
+trec_eval -q {qrel_file} {run_file}
+```
+
+### ndcgeval
+```
+trec_eval -m Rndcg -m ndcg_cut -c -q {qrel_file} {run_file}
+```
 
 ## Metadata Files
 
