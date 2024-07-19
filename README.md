@@ -23,8 +23,6 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 - __2023.qrels.pass.withDupes.txt__: TREC Deep Learning track 2023 passage qrels -- judged by NIST assessors
 - __2023.qrels.pass.gpt4.txt__: TREC Deep Learning track 2023 passage qrels -- judged by GPT-4
 - __prompts__: includes the prompts for different tasks, passage quality rater, query generation
--
--
 
 ### TREC Deep Learning 2023 Passages
 The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <a href="https://msmarco.z22.web.core.windows.net/msmarcoranking/msmarco_v2_passage.tar" target="_blank">msmarco_v2_passage.tar</a>
@@ -42,12 +40,10 @@ The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <
 - BeIR codes
 
 ### GPT-4
-
-- prompt
+The __gpt4-query-generation-prompt.txt__ prompt in `prompts` folder used for the GPT-4 query generation.
 
 ## Synthetic Judgments
-
-- prompt
+We used __synthetic-judgments-prompt.txt__ prompt in `prompts` folder for the GPT-4 synthetic judgments generation. We set the generation parameters as follows:
 
 - `engine = gpt-4-32k`
 - `temperature = 0`
