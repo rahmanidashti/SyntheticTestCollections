@@ -36,8 +36,7 @@ The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <
 ## Synthetic Queries
 
 ### T5
-
-- BeIR codes
+We used BeIR T5 pre-trained query generation model for generating T5-based quereis: <a href="https://huggingface.co/BeIR/query-gen-msmarco-t5-large-v1" target="_blank">BeIR/query-gen-msmarco-t5-large-v1</a>
 
 ### GPT-4
 The __gpt4-query-generation-prompt.txt__ prompt in `prompts` folder used for the GPT-4 query generation.
@@ -51,8 +50,7 @@ We used __synthetic-judgments-prompt.txt__ prompt in `prompts` folder for the GP
 - `frequency_penalty = 0.5`
 - `presence_penalty = 0`
 
-## Runs (ndcgeval, )
-
+## Runs
 ### treceval 
 ```
 trec_eval -q {qrel_file} {run_file}
