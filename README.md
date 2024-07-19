@@ -21,10 +21,12 @@ Test collections play a vital role in evaluation of information retrieval (IR) s
 - __dl-2023-runs__: includes the run submissions for TREC Deep Learning Track 2023
 - __2023_queries.tsv__: TREC Deep Learning track 2023 test queries
 - __2023.qrels.pass.withDupes.txt__: TREC Deep Learning track 2023 passage qrels -- judged by NIST assessors
+-
+-
+-
 
 ### TREC Deep Learning 2023 Passages
 The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <a href="https://msmarco.z22.web.core.windows.net/msmarcoranking/msmarco_v2_passage.tar" target="_blank">msmarco_v2_passage.tar</a>
-
 
 ## Test Query
 - `qid in the 2M range`: These are the human/real queries for TREC Deep Learning track 2023
@@ -34,11 +36,19 @@ The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <
 
 ## Synthetic Queries
 
+
 ### T5
+
+- BeIR codes
 
 ### GPT-4
 
+- prompt
+
 ## Synthetic Judgments
+
+- prompt
+
 - `engine = gpt-4-32k`
 - `temperature = 0`
 - `top_p = 1`
@@ -47,7 +57,11 @@ The TREC Deep Learning 2023 Passages can be downloaded form the following URL: <
 
 ## Runs (ndcgeval, treceval)
 
+- command
+
 ## Metadata Files
+
+- files
 
 ## Cite
 ```
